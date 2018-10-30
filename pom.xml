@@ -54,6 +54,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>luan</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
