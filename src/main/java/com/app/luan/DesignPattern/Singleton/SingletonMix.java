@@ -1,10 +1,17 @@
 package com.app.luan.DesignPattern.Singleton;
 
+/**
+* 单例模式模拟
+* 
+* @author luanxuewei
+* */
 public class SingletonMix {
-    // 私有构造
+     /**
+	  *私有构造
+	 */
     private SingletonMix() {}
 
-    private static SingletonMix single = null;
+    private volatile static SingletonMix single = null;
 
     public static SingletonMix getInstance() {
         
