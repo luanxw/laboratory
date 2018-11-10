@@ -1,4 +1,4 @@
-package com.app.luan.ThreadWait;
+package com.app.luan.Thread.ThreadWait;
 
 public class ThreadB extends Thread {
 	private Object lock;

@@ -1,4 +1,4 @@
-package com.app.luan.ThreadWait;
+package com.app.luan.Thread.ThreadWait;
 
 import java.util.ArrayList;
 import java.util.List;

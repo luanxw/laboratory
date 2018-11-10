@@ -1,4 +1,4 @@
-package com.app.luan.ThreadWait;
+package com.app.luan.Thread.ThreadWait;
 
 public class run {
 	public static void main(String[] args) {

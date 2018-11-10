@@ -1,4 +1,4 @@
-package com.app.luan.PipedTest;
+package com.app.luan.Thread.PipedTest;
 
 import java.io.IOException;
 import java.io.PipedInputStream;
