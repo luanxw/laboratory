@@ -1,6 +1,5 @@
 package com.app.luan.JoinTest;
 
-import com.app.luan.ThreadWait.ThreadA;
 
 public class JoinTest {
 	public static void main(String[] args) {
