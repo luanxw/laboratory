@@ -22,4 +22,11 @@ public class LuanApplicationTests {
 		invokeStrategy.doWork(worker);
 	}
 
+	@Test
+	public void TestFacetory1(){
+		String worker = "test";
+		com.app.luan.handler.byAbstarctClass.Handler handler = com.app.luan.handler.byAbstarctClass.Factory.getstarteHandler(worker);
+		handler.doWork(worker);
+		handler.doWorkOtherthings(worker);
+	}
 }
