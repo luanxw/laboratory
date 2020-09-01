@@ -1,6 +1,9 @@
 package com.app.luan.handler.byAbstarctClass;
 
-public class luanHandler extends Handler {
+import org.springframework.stereotype.Component;
+
+@Component
+public class AbstractLuanHandler extends Handler {
 
     @Override
     public void afterPropertiesSet() throws Exception {
@@ -9,7 +12,6 @@ public class luanHandler extends Handler {
 
     @Override
     public void doWork(String worker) {
-//        super.doWork(worker);
         System.out.println(worker+"已经开始工作.......");
     }
 

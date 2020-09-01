@@ -24,9 +24,10 @@ public class LuanApplicationTests {
 
 	@Test
 	public void TestFacetory1(){
-		String worker = "test";
+		String worker = "luan";
 		com.app.luan.handler.byAbstarctClass.Handler handler = com.app.luan.handler.byAbstarctClass.Factory.getstarteHandler(worker);
 		handler.doWork(worker);
-		handler.doWorkOtherthings(worker);
+		String result = handler.doWorkOtherthings(worker);
+		System.out.println(result);
 	}
 }
