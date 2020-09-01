@@ -1,7 +1,5 @@
 package com.app.luan.LockTest;
 
-import org.mybatis.spring.MyBatisSystemException;
-
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;

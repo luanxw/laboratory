@@ -1,13 +1,13 @@
 package com.app.luan.handler.byInterface;
 
 import org.springframework.util.StringUtils;
-
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 工厂模式
  * */
+
 public class Factory {
 
     private static Map<String  , Handler> strategyMap = new HashMap<>();

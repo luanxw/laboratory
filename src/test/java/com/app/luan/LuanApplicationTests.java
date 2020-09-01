@@ -1,5 +1,7 @@
 package com.app.luan;
 
+import com.app.luan.handler.byInterface.Factory;
+import com.app.luan.handler.byInterface.Handler;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +13,13 @@ public class LuanApplicationTests {
 
 	@Test
 	public void contextLoads() {
+	}
+
+	@Test
+	public void TestFacory(){
+		String worker = "luan";
+		Handler invokeStrategy = Factory.getInvokeStrategy(worker);
+		invokeStrategy.doWork(worker);
 	}
 
 }
