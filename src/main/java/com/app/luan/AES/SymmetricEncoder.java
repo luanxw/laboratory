@@ -120,7 +120,7 @@ public class SymmetricEncoder {
         String encodeRules=scanner.next();
         System.out.println("请输入要加密的内容:");
         String content = scanner.next();
-        System.out.println("根据输入的规则"+encodeRules+"加密后的密文是:"+se.AESEncode(encodeRules, content));
+        System.out.println("根据输入的规则"+encodeRules+"加密后的密文是:"+ AESEncode(encodeRules, content));
        
         /**
          * 解密
@@ -129,7 +129,7 @@ public class SymmetricEncoder {
          encodeRules=scanner.next();
         System.out.println("请输入要解密的内容（密文）:");
          content = scanner.next();
-        System.out.println("根据输入的规则"+encodeRules+"解密后的明文是:"+se.AESDncode(encodeRules, content));
+        System.out.println("根据输入的规则"+encodeRules+"解密后的明文是:"+ AESDncode(encodeRules, content));
     }
 
 }

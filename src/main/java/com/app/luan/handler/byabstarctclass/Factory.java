@@ -1,4 +1,4 @@
-package com.app.luan.handler.byAbstarctClass;
+package com.app.luan.handler.byabstarctclass;
 
 import org.springframework.util.StringUtils;
 
